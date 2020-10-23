@@ -43,7 +43,7 @@ pub fn add_subcommand<'a, 'b>() -> App<'a, 'b> {
                 .short("c")
                 .long("color")
                 .value_name("COLOR")
-                .help("Standard Rererence Model Color")
+                .help("Standard Reference Model Color")
                 .takes_value(true),
         )
 }
